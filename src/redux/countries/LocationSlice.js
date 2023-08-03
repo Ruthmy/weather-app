@@ -11,7 +11,7 @@ export const fetchLocation = createAsyncThunk(
       );
       return response.data;
     } catch (error) {
-      throw error.response;
+      throw error.message;
     }
   },
 );
@@ -38,7 +38,8 @@ const locationSlice = createSlice({
       })
       .addCase(fetchLocation.rejected, (state, action) => {
         state.status = 'failed';
-        state.error = action.payload;
+        state.location = [];
+        state.error = action.error.message;
       });
   },
 });
