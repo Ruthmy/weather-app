@@ -4,22 +4,22 @@ import weatherAPI from '../../API/weatherAPI';
 
 export const fetchLocation = createAsyncThunk(
   'location/fetchLocation',
-  async (location, thunkAPI) => {
+  async () => {
     try {
-      const { data } = await axios.get(
+      const response = await axios.get(
         `${weatherAPI.baseURL}${weatherAPI.regionList}?apikey=${weatherAPI.key}`,
       );
-      return data;
+      return response.data;
     } catch (error) {
-      return thunkAPI.rejectWithValue(error.message);
+      throw error.response;
     }
   },
 );
 
 const initialState = {
-  location: null,
-  loading: false,
-  error: null,
+  location: [],
+  status: 'idle',
+  error: '',
 };
 
 const locationSlice = createSlice({
@@ -27,18 +27,19 @@ const locationSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers(builder) {
-    builder.addCase(fetchLocation.pending, (state) => {
-      state.loading = true;
-    });
-    builder.addCase(fetchLocation.fulfilled, (state, action) => {
-      state.location = action.payload;
-      state.loading = false;
-      state.error = null;
-    });
-    builder.addCase(fetchLocation.rejected, (state, action) => {
-      state.loading = false;
-      state.error = action.payload;
-    });
+    builder
+      .addCase(fetchLocation.pending, (state) => {
+        state.status = 'loading';
+      })
+      .addCase(fetchLocation.fulfilled, (state, action) => {
+        state.location = action.payload;
+        state.status = 'succeeded';
+        state.error = null;
+      })
+      .addCase(fetchLocation.rejected, (state, action) => {
+        state.status = 'failed';
+        state.error = action.payload;
+      });
   },
 });
 
