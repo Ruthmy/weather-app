@@ -3,7 +3,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom';
 
-import '../styles/Continents.css';
+import '../styles/Continent.css';
 
 const Continent = () => {
   // Get the continents from the global state
