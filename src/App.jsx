@@ -3,7 +3,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Continents from './components/Continents';
+import Continent from './components/Continent';
 import CountryDetails from './components/CountryDetails';
 
 import './App.css';
@@ -15,7 +15,7 @@ const App = () => (
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:continent" element={<Continents />} />
+        <Route path="/:continent" element={<Continent />} />
         <Route path="/:continent/:country" element={<CountryDetails />} />
         <Route path="*" element={<p>Not found</p>} />
       </Routes>
