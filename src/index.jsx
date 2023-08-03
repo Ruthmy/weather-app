@@ -6,6 +6,9 @@ import store from './redux/store'; // This is our Redux store
 import App from './App';
 
 import './index.css';
+import { fetchLocation } from './redux/countries/LocationSlice';
+
+store.dispatch(fetchLocation());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

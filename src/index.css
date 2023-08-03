@@ -5,6 +5,10 @@
   --font-one: 'Lato', sans-serif;
   --font-two: 'Gill Sans', sans-serif;
   --blue-color: #4369b2;
+  --p-size: 1.6rem;
+  --h1-size: 3.2rem;
+  --h2-size: 2.4rem;
+  --h3-size: 1.8rem;
 }
 
 html {
@@ -20,6 +24,30 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-
-  /* outline: 1px solid red !important; */
+  outline: 1px solid red !important;
 }
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 { font-size: var(--h1-size); }
+
+h2 { font-size: var(--h2-size); }
+
+h3 { font-size: var(--h3-size); }
+
+p { font-size: var(--p-size); }
+
+a {
+  text-decoration: none;
+  font-size: var(--p-size);
+}
+
+li { list-style: none; }

@@ -5,50 +5,16 @@ import '../styles/Navbar.css';
 
 const Navbar = () => (
   <>
-    <nav>
-      <NavLink to="/">
-        <div className="nav__logo d-flex-row">
-          <img src="logo192.png" alt="Space Travelers Logo" />
-          <h1>Space Travelers&apos; Hub</h1>
-        </div>
-      </NavLink>
+    <nav className="d-flex-row">
       <div>
-        <ul className="nav__routes d-flex-row">
-          <li key="Rockets">
-            <NavLink
-              to="/"
-              style={({ isActive }) => ({
-                textDecoration: isActive ? 'underline' : 'none',
-              })}
-            >
-              Rockets
-            </NavLink>
-          </li>
-          <li key="Missions">
-            <NavLink
-              to="/missions"
-              style={({ isActive }) => ({
-                textDecoration: isActive ? 'underline' : 'none',
-              })}
-            >
-              Missions
-            </NavLink>
-          </li>
-          <p>|</p>
-          <li key="My Profile">
-            <NavLink
-              to="/profile"
-              style={({ isActive }) => ({
-                textDecoration: isActive ? 'underline' : 'none',
-              })}
-            >
-              My Profile
-            </NavLink>
-          </li>
-        </ul>
+        {/* Create a link to come back to the home page */}
+        <NavLink to="/">Home</NavLink>
+      </div>
+      <div>
+        <button type="button" className="btn btn-primary">Mic</button>
+        <button type="button" className="btn btn-primary">Config</button>
       </div>
     </nav>
-    <div className="nav__line" />
   </>
 );
 

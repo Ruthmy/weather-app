@@ -1,0 +1,19 @@
+/* Coming soon */
+
+.home {
+  height: 30vh;
+}
+
+.map {
+  width: 50%;
+}
+
+.continents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0;
+}
+
+.continent {
+  height: 15rem;
+}

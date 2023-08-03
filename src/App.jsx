@@ -2,6 +2,9 @@ import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Continent from './components/Continent';
+import CountryDetails from './components/CountryDetails';
 
 import './App.css';
 
@@ -11,8 +14,9 @@ const App = () => (
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<div>Home Page</div>} />
-        <Route path="/calculator" element={<div>Details Page</div>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/:continent" element={<Continent />} />
+        <Route path="/:continent/:country" element={<CountryDetails />} />
         <Route path="*" element={<p>Not found</p>} />
       </Routes>
     </HashRouter>

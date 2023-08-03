@@ -1,4 +1,20 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import axios from 'axios';
+import weatherAPI from '../../API/weatherAPI';
+
+export const fetchWeather = createAsyncThunk(
+  'weather/fetchWeather',
+  async (locationKey, thunkAPI) => {
+    try {
+      const { data } = await axios.get(
+        `${weatherAPI.baseURL}${weatherAPI.currentConditionsURL}${locationKey}?apikey=${weatherAPI.key}`,
+      );
+      return data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.message);
+    }
+  },
+);
 
 const initialState = {
   weather: null,
