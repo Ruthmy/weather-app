@@ -13,7 +13,7 @@ const Home = () => (
       <img
         className="header"
         src={logo}
-        alt="Mapa Mundi"
+        alt="Weather App Logo"
       />
       <div className="home__info">
         <h1 className="title">WEATHER APP</h1>
