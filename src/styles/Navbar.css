@@ -3,9 +3,32 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: var(--blue-color);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  height: 3rem;
+  height: 3.5rem;
   position: sticky;
   top: 0;
   width: 100%;
+  padding: 0 1rem;
+}
+
+.nav__panel {
+  gap: 2rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 2rem;
+  width: 2rem;
+}
+
+.btn img {
+  height: 100%;
+  object-fit: contain;
+}
+
+svg {
+  height: 4rem;
+  width: 2rem;
 }
