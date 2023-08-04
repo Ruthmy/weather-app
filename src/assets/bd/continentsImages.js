@@ -8,7 +8,7 @@ import AmericaContinent from '../img/America.svg';
 // Create an array of continents images
 const continentsImages = {
   Africa: AfricaContinent,
-  Americas: AmericaContinent,
+  America: AmericaContinent,
   Antarctica: AntarcticaContinent,
   Asia: AsiaContinent,
   Europe: EuropeContinent,
