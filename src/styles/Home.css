@@ -1,19 +1,59 @@
-/* Coming soon */
-
 .home {
-  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  padding: 1rem;
+  background-color: var(--blue-color-light);
 }
 
-.map {
-  width: 50%;
+img.header {
+  height: 100%;
+  object-fit: cover;
+}
+
+.home__info {
+  padding-left: 1rem;
+  width: 40%;
+}
+
+.division {
+  height: auto;
+  padding: 0.8rem 1rem;
+  background-color: var(--blue-color-dark);
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  opacity: 0.95;
 }
 
 .continents {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.continent {
-  height: 15rem;
+.continents__link {
+  height: 20rem;
+  width: 50%;
+  padding: 1rem;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-image: url(../assets/img/circle-right-regular.svg);
+  background-position: top 0.5rem right 0.5rem;
+  background-size: 2.5rem;
+  background-repeat: no-repeat;
+}
+
+.continents__link:nth-child(2),
+.continents__link:nth-child(3) {
+  background-color: var(--blue-color-medium);
+}
+
+.continents__image {
+  height: 80%;
+  object-fit: contain;
+  opacity: 0.4;
+}
+
+.continents__detail {
+  width: 100%;
+  padding-right: 1rem;
 }
