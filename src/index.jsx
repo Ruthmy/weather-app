@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Provider } from 'react-redux'; // This provider will provide the global state to our app
-import store from './redux/store'; // This is our Redux store
+import { Provider } from 'react-redux';
+import store from './redux/store';
 
 import App from './App';
+import { fetchWeather } from './redux/weather/weatherSlice';
 
 import './index.css';
+
+store.dispatch(fetchWeather());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

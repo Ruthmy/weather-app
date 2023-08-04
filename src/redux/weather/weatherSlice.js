@@ -4,43 +4,44 @@ import weatherAPI from '../../API/weatherAPI';
 
 export const fetchWeather = createAsyncThunk(
   'weather/fetchWeather',
-  async (locationKey, thunkAPI) => {
+  async () => {
     try {
-      const { data } = await axios.get(
-        `${weatherAPI.baseURL}${weatherAPI.currentConditionsURL}${locationKey}?apikey=${weatherAPI.key}`,
+      const response = await axios.get(
+        `${weatherAPI.baseURL}${weatherAPI.currentConditionsURL}?apikey=${weatherAPI.key}`,
       );
-      return data;
+      return response.data;
     } catch (error) {
-      return thunkAPI.rejectWithValue(error.message);
+      throw error.message;
     }
   },
 );
 
 const initialState = {
-  weather: null,
-  loading: false,
-  error: null,
+  weather: [],
+  status: 'idle',
+  error: '',
 };
 
 const weatherSlice = createSlice({
   name: 'weather',
   initialState,
-  reducers: {
-    getWeatherStart: (state) => {
-      state.loading = true;
-    },
-    getWeatherSuccess: (state, action) => {
-      state.weather = action.payload;
-      state.loading = false;
-      state.error = null;
-    },
-    getWeatherFailure: (state, action) => {
-      state.loading = false;
-      state.error = action.payload;
-    },
+  reducers: {},
+  extraReducers(builder) {
+    builder
+      .addCase(fetchWeather.pending, (state) => {
+        state.status = 'loading';
+      })
+      .addCase(fetchWeather.fulfilled, (state, action) => {
+        state.weather = action.payload;
+        state.status = 'succeeded';
+        state.error = null;
+      })
+      .addCase(fetchWeather.rejected, (state, action) => {
+        state.status = 'failed';
+        state.weather = [];
+        state.error = action.error.message;
+      });
   },
 });
-
-export const { getWeatherStart, getWeatherSuccess, getWeatherFailure } = weatherSlice.actions;
 
 export default weatherSlice.reducer;
