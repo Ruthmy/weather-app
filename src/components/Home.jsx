@@ -26,7 +26,7 @@ const Home = () => (
     <div className="continents d-flex-row">
       {regionListArray && regionListArray.map((region) => (
         <NavLink
-          to={`/${region.EnglishName}`}
+          to={`/${region.LocalizedName}`}
           className="continents__link d-flex-column"
           key={region.EnglishName}
         >
