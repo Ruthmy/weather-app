@@ -1,41 +1,67 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom';
 
+import continentsImages from '../assets/bd/continentsImages';
 import '../styles/Continent.css';
 
 const Continent = () => {
-  // Get the continents from the global state
-  // const continents = useSelector((state) => state.location.location);
+  // Get the countries from the global state
+  const countries = useSelector((state) => state.weather.weather);
+
   const { continent } = useParams();
-  console.log(continent);
+
+  const continentCountries = countries.filter(
+    (country) => country.TimeZone.Name.includes(continent),
+  );
 
   return (
     <div className="continent">
-      <p>Its here</p>
       <div className="home d-flex-row">
         <img
-          className="map"
-          src=""
-          alt="Mapa Mundi"
+          className="header"
+          src={
+            continentsImages[continent]
+              ? continentsImages[continent]
+              : continentsImages.Oceania
+          }
+          alt={continent}
         />
-        <div>
-          <h1 className="title">Countries of the World</h1>
-          <h2 className="description">
-            Click on a continent to see the countries of that continent.
-          </h2>
+        <div className="home__info">
+          <h1 className="title">{continent}</h1>
+          <p className="description">
+            {continentCountries.length}
+            &nbsp;cities
+          </p>
         </div>
       </div>
-      {/* {continents.map((continent) => (
-        <NavLink
-          to={`/${continent.EnglishName}`}
-          className="continent"
-          key={continent.EnglishName}
-        >
-          {continent.EnglishName}
-        </NavLink>
-      ))} */}
+      <div className="division">
+        <h2>
+          LIST OF CITIES IN&nbsp;
+          {continent}
+        </h2>
+      </div>
+      <div className="cities">
+        {continentCountries && continentCountries.map((city) => (
+          <NavLink
+            to={`/${continent}/${city.LocalizedName}`}
+            className="country__link d-flex-row"
+            key={city.EnglishName}
+          >
+            <div className="country__content d-flex-row">
+              <p className="country__detail">
+                {city.LocalizedName}
+              </p>
+              <p className="control">
+                {city.Temperature.Metric.Value}
+                &nbsp;
+                {city.Temperature.Metric.Unit}
+                °
+              </p>
+            </div>
+          </NavLink>
+        ))}
+      </div>
 
     </div>
   );
