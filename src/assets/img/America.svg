@@ -9,9 +9,9 @@
       <style id="style_css_sheet" type="text/css"></style>
       <path
         id="pe"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -20,7 +20,7 @@
       ></path>
       <g
         id="fr"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -28,7 +28,7 @@
         transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)"
       >
         <g id="fr-gp" strokeWidth="0.137">
-          <g id="gp-" stroke="#fff">
+          <g id="gp-" stroke="##000000">
             <path
               id="path2582"
               d="M806.526 618.838c-.346.584-.882 4.254-1.787 1.758-.509-1.405.288-2.788 1.787-1.758"
@@ -52,7 +52,7 @@
         <g id="fr-mq" strokeWidth="0.137">
           <path
             id="mq-"
-            stroke="#fff"
+            stroke="##000000"
             d="M810.336 634.966c-.583-.893-1.3-.133-1.584-.98-.275-.818-.646-1.705-.657-2.582-.014-1.15 1.181-.144 1.494.25.61.767 1.462 2.36.747 3.312"
           ></path>
           <path
@@ -64,16 +64,16 @@
         </g>
         <path
           id="gf"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.228"
           d="M853.326 739.438c1.288-.06 2.316-2.268 2.755-3.237.818-1.81.012-3.822 1.246-5.47 1.463-1.953.12-3.393-1.127-4.948-1.292-1.613-1.24-4.493-1.364-6.461-.144-2.293.19-3.596 1.863-5.193.623-.595 1.4-1.252 1.6-2.131.258-1.14.552-2.562 2.167-1.952 1.048.396 1.767 1.244 2.881 1.549 1.203.33 2.664.312 3.682 1.126 1.194.957 2.781 4.602 4.656 4.469a4.251 4.251 0 00-.649 1.513c.532-2.396 4.637 1.715 2.3 3.312 1.132-.417.474-1.475 1.038-2.23.856-1.145 1.521 1.526 1.587 2.095.312 2.698-1.758 5.554-3.16 7.702-1.613 2.468-2.734 4.557-3.785 7.338-.39 1.032-.893 1.905-1.76 2.607-.36.292-1.005.964-1.479 1.089-.78.207-1.396-.418-2.23-.024.343-.981-.272-.985-1.009-.757-1.03.319-1.91-.1-2.889-.431-.494-.167-2.415 1.225-2.722 1.59-.57.677-3.224-1.16-3.6-1.556"
         ></path>
       </g>
       <g
         id="bo"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -91,9 +91,9 @@
       </g>
       <g
         id="mx"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -162,9 +162,9 @@
         ></path>
         <path
           id="path2630"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -184,9 +184,9 @@
       </g>
       <g
         id="bz"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -200,9 +200,9 @@
         ></path>
         <path
           id="path2810"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -212,9 +212,9 @@
       </g>
       <g
         id="br"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -388,9 +388,9 @@
         ></path>
         <path
           id="path2812"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -425,9 +425,9 @@
       </g>
       <g
         id="do"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -436,9 +436,9 @@
       >
         <path
           id="path3372"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -453,9 +453,9 @@
       </g>
       <g
         id="cu"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -497,9 +497,9 @@
       </g>
       <g
         id="ve"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -508,9 +508,9 @@
       >
         <path
           id="path3410"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -580,9 +580,9 @@
       </g>
       <path
         id="co"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -591,9 +591,9 @@
       ></path>
       <g
         id="gl"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -1189,9 +1189,9 @@
       </g>
       <path
         id="gt"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -1200,9 +1200,9 @@
       ></path>
       <path
         id="sr"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -1211,9 +1211,9 @@
       ></path>
       <g
         id="pa"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -1222,9 +1222,9 @@
       >
         <path
           id="path2682"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -1254,9 +1254,9 @@
       </g>
       <g
         id="ar"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -1275,9 +1275,9 @@
         ></path>
         <path
           id="path4518"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -1286,9 +1286,9 @@
         ></path>
         <path
           id="path4520"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -1303,9 +1303,9 @@
       </g>
       <path
         id="cr"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -1314,9 +1314,9 @@
       ></path>
       <path
         id="py"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -1325,9 +1325,9 @@
       ></path>
       <g
         id="ht"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -1336,9 +1336,9 @@
       >
         <path
           id="path5512"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -1363,9 +1363,9 @@
       </g>
       <g
         id="ca"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -2369,9 +2369,9 @@
         ></path>
         <path
           id="path4906"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -2806,9 +2806,9 @@
       </g>
       <path
         id="sv"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -2817,9 +2817,9 @@
       ></path>
       <path
         id="gy"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -2828,9 +2828,9 @@
       ></path>
       <path
         id="uy"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -2839,9 +2839,9 @@
       ></path>
       <g
         id="hn"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -2850,9 +2850,9 @@
       >
         <path
           id="path5978"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -2867,9 +2867,9 @@
       </g>
       <path
         id="is"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -2878,9 +2878,9 @@
       ></path>
       <path
         id="ni"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -2889,9 +2889,9 @@
       ></path>
       <g
         id="cl"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -3655,9 +3655,9 @@
         ></path>
         <path
           id="path6462"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -3676,9 +3676,9 @@
         ></path>
         <path
           id="path6472"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -3688,9 +3688,9 @@
       </g>
       <g
         id="ec"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -3744,9 +3744,9 @@
         ></path>
         <path
           id="path6790"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -3756,9 +3756,9 @@
       </g>
       <g
         id="us"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -4272,9 +4272,9 @@
         ></path>
         <path
           id="path3790"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -4423,9 +4423,9 @@
         ></path>
         <path
           id="path3804"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -4445,7 +4445,7 @@
       </g>
       <g
         id="lakes"
-        fill="#fff"
+        fill="##000000"
         fillOpacity="1"
         stroke="none"
         strokeDasharray="none"
@@ -4471,7 +4471,7 @@
         id="aq"
         fill="#e6e6e6"
         fillOpacity="1"
-        stroke="#fff"
+        stroke="##000000"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
@@ -4537,14 +4537,14 @@
       </g>
       <g
         id="bs"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
         transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)"
       >
-        <g id="bs-" stroke="#fff" strokeWidth="0.137">
+        <g id="bs-" stroke="##000000" strokeWidth="0.137">
           <path
             id="path6100"
             d="M708.82 557.062l-.72-.288c.266.032.505.129.72.288"
@@ -4628,7 +4628,7 @@
       </g>
       <g
         id="fk"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -4637,7 +4637,7 @@
       >
         <g
           id="fk-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           transform="translate(-29.902 -45.075)"
         >
@@ -4696,7 +4696,7 @@
       </g>
       <g
         id="jm"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -4705,7 +4705,7 @@
       >
         <path
           id="jm-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M681.46 601.558c2.001-2.64 5.707-2.221 8.567-1.656 1.76.348 3.123 1.409 4.791 1.915 1.728.524 1.831 1.294 2.697 2.766-.766.363-1.585.432-2.42.432-.772 0-1.15-.796-1.972-.647 1.063-.18-.258-.39-.555-.126-.313.278-.588.83-1.06.85-.927.038-2.136-.132-1.337 1.22-.957.009-1.083-1.154-1.988-1.071-.874.08-2.392-.01-2.868-.884-.294-.54-.788-1.05-1.195-1.504-.7-.784-2.112-.32-2.66-1.295"
         ></path>
@@ -4719,7 +4719,7 @@
       </g>
       <g
         id="pr"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -4728,7 +4728,7 @@
       >
         <path
           id="pr-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M774.765 604.15c-2.428-.178-5.55.68-7.873-.016-.527-.158-1.663.243-1.316-.99a3.37 3.37 0 00.41-1.082c-.049-.604-.809-.844-.72-1.512.303-2.305 7.747-.937 8.942-.506.965.348 3.245-.388 3.227 1.298-.01.973-1.837 2.504-2.67 2.808"
         ></path>
@@ -4742,7 +4742,7 @@
       </g>
       <g
         id="tt"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -4751,7 +4751,7 @@
       >
         <g
           id="tt-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           transform="translate(-29.902 -45.075)"
         >
@@ -4774,7 +4774,7 @@
       </g>
       <g
         id="pf"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -4783,7 +4783,7 @@
       >
         <g
           id="pf-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           transform="translate(-29.902 -45.075)"
         >
@@ -4830,19 +4830,19 @@
       </g>
       <g
         id="an"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
         transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)"
       >
-        <g id="an-" stroke="#fff" strokeWidth="0.137">
+        <g id="an-" stroke="##000000" strokeWidth="0.137">
           <path
             id="path2580"
-            fill="#b9b9b9"
+            fill="##000000"
             fillOpacity="1"
-            stroke="#fff"
+            stroke="##000000"
             strokeDasharray="none"
             strokeMiterlimit="3.974"
             strokeOpacity="1"
@@ -4870,7 +4870,7 @@
       </g>
       <g
         id="dm"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -4879,7 +4879,7 @@
       >
         <path
           id="dm-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M807.096 628.054c-.11-1.142-1.084-2.53-.5-3.672 1.517.388 2.312 3.116.5 3.672"
         ></path>
@@ -4894,9 +4894,9 @@
       <g id="ki" transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)">
         <g
           id="ki-"
-          fill="#b9b9b9"
+          fill="##000000"
           fillOpacity="1"
-          stroke="#fff"
+          stroke="##000000"
           strokeDasharray="none"
           strokeMiterlimit="3.974"
           strokeOpacity="1"
@@ -4911,14 +4911,14 @@
       </g>
       <g
         id="ag"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
         transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)"
       >
-        <g id="ag-" stroke="#fff" strokeWidth="0.137">
+        <g id="ag-" stroke="##000000" strokeWidth="0.137">
           <path
             id="path6116"
             d="M805.656 612.575c-.94.037-1.243-1.335-.21-1.441.927-.096.575 1.05.21 1.44"
@@ -4938,7 +4938,7 @@
       </g>
       <g
         id="bb"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -4947,7 +4947,7 @@
       >
         <path
           id="bb-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M819.556 646.63c-.959-.41-.79-1.311-.79-2.16.802.298 2.27 1.636.79 2.16"
         ></path>
@@ -4961,14 +4961,14 @@
       </g>
       <g
         id="tc"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
         transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)"
       >
-        <g id="tc-" stroke="#fff" strokeWidth="0.137">
+        <g id="tc-" stroke="##000000" strokeWidth="0.137">
           <path
             id="path5528"
             d="M731.216 571.462l-.36-.721c.49.306.994.33 1.51.072-.37.24-.754.456-1.15.649"
@@ -4992,7 +4992,7 @@
       </g>
       <g
         id="vc"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5001,7 +5001,7 @@
       >
         <path
           id="vc-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M807.026 645.982c-1.02-.618-.314-1.585.22-2.231.528.735.282 1.573-.22 2.23"
         ></path>
@@ -5015,7 +5015,7 @@
       </g>
       <g
         id="lc"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5024,7 +5024,7 @@
       >
         <path
           id="lc-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M809.185 640.942c-1.39-.555-.666-1.98 0-2.808 1.025.543.674 2.138 0 2.808"
         ></path>
@@ -5038,14 +5038,14 @@
       </g>
       <g
         id="vi"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
         transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)"
       >
-        <g id="vi-" stroke="#fff" strokeWidth="0.137">
+        <g id="vi-" stroke="##000000" strokeWidth="0.137">
           <path
             id="path4052"
             d="M778.086 603.07c.324-.482.856-.77 1.44-.576a1.871 1.871 0 01-1.44.577"
@@ -5065,7 +5065,7 @@
       </g>
       <g
         id="gd"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5074,7 +5074,7 @@
       >
         <path
           id="gd-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M802.486 655.702c-.768-.732-.124-1.668.65-2.017.29.759.056 1.587-.65 2.017"
         ></path>
@@ -5088,7 +5088,7 @@
       </g>
       <g
         id="ky"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5097,7 +5097,7 @@
       >
         <path
           id="ky-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M660.003 592.342c.73.045 1.437-.166 2.16-.216-.65.448-1.412.838-2.232.72l.072-.504"
         ></path>
@@ -5111,14 +5111,14 @@
       </g>
       <g
         id="kn"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
         transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)"
       >
-        <g id="kn-" stroke="#fff" strokeWidth="0.137">
+        <g id="kn-" stroke="##000000" strokeWidth="0.137">
           <path
             id="path5926"
             d="M798.886 610.63a21.63 21.63 0 01-1.44-1.368c.858-.412 1.487.63 1.44 1.368"
@@ -5138,7 +5138,7 @@
       </g>
       <g
         id="ms"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5147,7 +5147,7 @@
       >
         <path
           id="ms-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M801.6 615.398c-.05-.264.112-.153.062-.417.177.172.26.274.27.378.011.104-.05.156-.16.336"
         ></path>
@@ -5161,7 +5161,7 @@
       </g>
       <g
         id="bl"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5170,7 +5170,7 @@
       >
         <path
           id="bl-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M797.92 604.471l-.775.024c.45.335.4.077.775-.024"
         ></path>
@@ -5184,14 +5184,14 @@
       </g>
       <g
         id="ck"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
         transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)"
       >
-        <g id="ck-" stroke="#fff" strokeWidth="0.137">
+        <g id="ck-" stroke="##000000" strokeWidth="0.137">
           <path
             id="path35652"
             d="M-.796 869.861c.313-.719.097-.958-.648-.72.196.258.412.498.648.72"
@@ -5211,7 +5211,7 @@
       </g>
       <g
         id="aw"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5220,7 +5220,7 @@
       >
         <path
           id="aw-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M739.776 651.526l-.36-.72c.795-.313 1.13.837 1.23 1.368a4.624 4.624 0 01-.87-.648"
         ></path>
@@ -5234,14 +5234,14 @@
       </g>
       <g
         id="vg"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
         strokeOpacity="1"
         transform="matrix(2.19472 0 0 2.19473 3.908 -751.357)"
       >
-        <g id="vg-" stroke="#fff" strokeWidth="0.137">
+        <g id="vg-" stroke="##000000" strokeWidth="0.137">
           <path
             id="path5522"
             d="M783.126 601.126l-.72-.288c.698-.32.94-.223.72.288"
@@ -5261,7 +5261,7 @@
       </g>
       <g
         id="ai"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5270,7 +5270,7 @@
       >
         <path
           id="ai-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M795.866 602.422c.461-.342.941-.654 1.44-.937-.33.489-.849.854-1.44.937"
         ></path>
@@ -5284,7 +5284,7 @@
       </g>
       <g
         id="mf"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5294,7 +5294,7 @@
       >
         <path
           id="path2439"
-          stroke="#fff"
+          stroke="##000000"
           d="M796.36 603.31c.594-.672.596-.344.46.04"
         ></path>
         <path
@@ -5306,7 +5306,7 @@
       </g>
       <g
         id="bm"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5315,7 +5315,7 @@
       >
         <path
           id="bm-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M802.056 480.454c.25-.174.517-.318.8-.433l-.8.433"
         ></path>
@@ -5329,7 +5329,7 @@
       </g>
       <g
         id="pn"
-        fill="#b9b9b9"
+        fill="##000000"
         fillOpacity="1"
         strokeDasharray="none"
         strokeMiterlimit="3.974"
@@ -5338,7 +5338,7 @@
       >
         <path
           id="pn-"
-          stroke="#fff"
+          stroke="##000000"
           strokeWidth="0.137"
           d="M404.796 987.837c.313-.72.097-.958-.648-.72.196.258.412.498.648.72"
         ></path>
