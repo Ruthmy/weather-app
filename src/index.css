@@ -10,7 +10,7 @@
   --blue-color-dark: #35548b;
   --p-size: 1.8rem;
   --h1-size: 2.5rem;
-  --h2-size: 2rem;
+  --h2-size: 1.9rem;
 }
 
 html {
@@ -47,7 +47,10 @@ body {
 
 h1 { font-size: var(--h1-size); }
 
-h2 { font-size: var(--h2-size); }
+h2 {
+  font-size: var(--h2-size);
+  font-weight: 600;
+}
 
 p { font-size: var(--p-size); }
 
