@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Microphone from '../assets/img/microphone.svg';
+import Settings from '../assets/img/gear.svg';
 
 import '../styles/Navbar.css';
 
@@ -7,12 +9,23 @@ const Navbar = () => (
   <>
     <nav className="d-flex-row">
       <div>
-        {/* Create a link to come back to the home page */}
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/">home</NavLink>
       </div>
-      <div>
-        <button type="button" className="btn btn-primary">Mic</button>
-        <button type="button" className="btn btn-primary">Config</button>
+      <div className="nav__panel d-flex-row">
+        <button type="button" className="btn">
+          <img
+            className="btn__image"
+            src={Microphone}
+            alt="Microphone"
+          />
+        </button>
+        <button type="button" className="btn">
+          <img
+            className="btn__image"
+            src={Settings}
+            alt="Settings"
+          />
+        </button>
       </div>
     </nav>
   </>
