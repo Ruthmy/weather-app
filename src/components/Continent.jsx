@@ -6,17 +6,15 @@ import continentsImages from '../assets/bd/continentsImages';
 import '../styles/Continent.css';
 
 const Continent = () => {
-  // Get the countries from the global state
-  const countries = useSelector((state) => state.weather.weather);
-
   const { continent } = useParams();
 
-  const continentCountries = countries.filter(
+  // Get the countries from the global state
+  const continentCountries = useSelector((state) => state.weather.weather).filter(
     (country) => country.TimeZone.Name.includes(continent),
   );
 
   return (
-    <div className="continent">
+    <div>
       <div className="home d-flex-row">
         <img
           className="header"
@@ -41,18 +39,18 @@ const Continent = () => {
           {continent}
         </h2>
       </div>
-      <div className="cities">
+      <div>
         {continentCountries && continentCountries.map((city) => (
           <NavLink
             to={`/${continent}/${city.LocalizedName}`}
-            className="country__link d-flex-row"
+            className="cities__link d-flex-row"
             key={city.EnglishName}
           >
-            <div className="country__content d-flex-row">
-              <p className="country__detail">
+            <div className="cities__content d-flex-row">
+              <p>
                 {city.LocalizedName}
               </p>
-              <p className="control">
+              <p>
                 {city.Temperature.Metric.Value}
                 &nbsp;
                 {city.Temperature.Metric.Unit}
