@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Continent component Should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="home d-flex-row"
+    >
+      <img
+        alt="Cloudy"
+        class="header"
+        src="https://www.accuweather.com/images/weathericons/7.svg"
+      />
+      <div
+        class="home__info"
+      >
+        <h1
+          class="title"
+        >
+          Dhaka
+        </h1>
+        <p
+          class="description"
+        />
+      </div>
+    </div>
+    <div
+      class="division"
+    >
+      <h2>
+        CURRENT CONDITIONS
+      </h2>
+    </div>
+    <div
+      class="weather d-flex-column"
+    >
+      <div
+        class="weather__details d-flex-column"
+      >
+        <p
+          class="temperature"
+        >
+          28.5
+           
+          C
+          ° | 
+          83
+           
+          F
+          °
+        </p>
+        <div
+          class="summary"
+        >
+          <p
+            class="summaryText"
+          >
+            Cloudy
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
