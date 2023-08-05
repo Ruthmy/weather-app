@@ -1,4 +1,4 @@
-const regionListArray = [
+const continentsListArray = [
   {
     ID: 'AFR',
     LocalizedName: 'Africa',
@@ -26,4 +26,4 @@ const regionListArray = [
   },
 ];
 
-export default regionListArray;
+export default continentsListArray;
