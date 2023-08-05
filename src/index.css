@@ -71,7 +71,8 @@ h2 {
 }
 
 a,
-p {
+p,
+input {
   font-family: var(--font-one);
 }
 
@@ -114,19 +115,19 @@ p.continents__cities { font-weight: 300; }
 .home {
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 28vh;
   padding: 1rem;
   background-color: var(--blue-color-light);
 }
 
 img.header {
-  height: 100%;
+  height: 85%;
   object-fit: cover;
 }
 
 .home__info {
   padding-left: 1rem;
-  width: 40%;
+  width: 50%;
 }
 
 .division {
