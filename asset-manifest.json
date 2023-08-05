@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/weather-app/static/css/main.d23242af.css",
+    "main.js": "/weather-app/static/js/main.dc746e38.js",
+    "static/media/America.svg": "/weather-app/static/media/America.2882fa4a5c993a3b69f17c19feaf4a50.svg",
+    "static/media/Oceania.svg": "/weather-app/static/media/Oceania.a8c5a82839a7eabe29a476636a6479dc.svg",
+    "static/media/Europe.svg": "/weather-app/static/media/Europe.1179280d60eab692be3bcf907408a0aa.svg",
+    "static/media/Asia.svg": "/weather-app/static/media/Asia.cc759ce275e475d49dd85d5d688bc20d.svg",
+    "static/media/Antarctica.svg": "/weather-app/static/media/Antarctica.19e2f19f029468335ba3e378aef0eebd.svg",
+    "static/media/Africa.svg": "/weather-app/static/media/Africa.a6dcf69cf99ecc41f96dde35364403d8.svg",
+    "static/media/logo.svg": "/weather-app/static/media/logo.046756c52451e2df5e41469d5c6c6948.svg",
+    "static/media/gear.svg": "/weather-app/static/media/gear.ef027d25c32e7189aa59ab1485ea95a3.svg",
+    "index.html": "/weather-app/index.html",
+    "static/media/microphone.svg": "/weather-app/static/media/microphone.21dede33ef87a1593d3159c5d8e93d25.svg",
+    "static/media/arrow.svg": "/weather-app/static/media/arrow.99d8c0b2fb39289d1f784b8e83df8a63.svg",
+    "static/media/circle-right-regular.svg": "/weather-app/static/media/circle-right-regular.8b3ca6e2bd15b52b4f5c.svg",
+    "main.d23242af.css.map": "/weather-app/static/css/main.d23242af.css.map",
+    "main.dc746e38.js.map": "/weather-app/static/js/main.dc746e38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d23242af.css",
+    "static/js/main.dc746e38.js"
+  ]
+}
