@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
+  <img src="./src/assets/img/logo.svg" height="100px">
   <h1><b>Weather App  | React & Redux Capstone Project</b></h1>
 </div>
 
@@ -91,10 +92,11 @@
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-<!--
-- 🎤 [Project presentation: video demo](https://drive.google.com/file/d/1-eSDabquIJCbvbQblqBPvSwbDIvaRfIb/view?usp=sharing)
--->
-- [Live Demo Link](https://weather-app-78l6.onrender.com)
+<br>
+
+[![Project presentation: video demo](https://cdn.loom.com/sessions/thumbnails/1bf9ad98213a4eacb270dec9a82af25b-with-play.gif)](https://www.loom.com/share/1bf9ad98213a4eacb270dec9a82af25b)
+
+- [Live Demo Link](https://Ruthmy.github.io/weather-app)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -174,9 +176,8 @@ Install this project with:
 
 Upcoming improvements:
 
-- [] Create a full Single Page App (SPA) website.
-- [] Use AccuWeather API to manage the weather data.
-- [] Better styling.
+- [] Better styling to improve the desktop experience.
+- [] Accessibility improvements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,6 +201,7 @@ Feel free to check the [issues page](https://github.com/Ruthmy/weather-app/issue
 
 If you like this project and know someone who might find it helpful, please share it.
 Or give it a **star** ⭐️
+If you liked the original design that inspired this project, I recommend you visit [Nelson Sakwa's Behance post](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)). and follow him on Behance to support her work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
