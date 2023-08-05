@@ -95,15 +95,19 @@ a:active {
   opacity: 0.95;
 }
 
-p.continents__detail {
+p.continents__detail,
+p.continents__cities {
   font-family: var(--font-two);
   text-align: right;
-  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   opacity: 0.95;
 }
+
+p.continents__detail { font-weight: 800; }
+
+p.continents__cities { font-weight: 300; }
 
 /* Styles across components */
 
