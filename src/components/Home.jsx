@@ -1,15 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import continentsImages from '../assets/bd/continentsImages';
-import regionListArray from '../assets/bd/regionList';
+import continentsListArray from '../assets/bd/continentsList';
 
 import logo from '../assets/img/logo.svg';
 import '../styles/Home.css';
 
 const Home = () => {
+  // Get the cities per continent from the store to display the number of cities per continent
   const citiesPerContinent = useSelector((state) => state.weather.weather);
+
+  // Search value to filter the continents
+  const [searchValue, setSearchValue] = useState('');
+
+  const searchedContinents = continentsListArray.filter(
+    (continent) => continent.LocalizedName.toLowerCase().includes(searchValue.toLowerCase()),
+  );
+
   return (
     <>
       <div className="home d-flex-row">
@@ -18,18 +27,27 @@ const Home = () => {
           src={logo}
           alt="Weather App Logo"
         />
-        <div className="home__info">
+        <div className="home__info d-flex-column">
           <h1 className="title">WEATHER APP</h1>
           <p className="description">
             {citiesPerContinent.length > 0
               ? ` We currently have ${citiesPerContinent.length} cities listed.`
               : ' We currently have no cities listed.'}
           </p>
+          <input
+            placeholder="Searh a continent"
+            className="continentSearch"
+            value={searchValue}
+            onChange={(event) => {
+              setSearchValue(event.target.value);
+            }}
+          />
         </div>
       </div>
+
       <div className="division"><h2>CONTINENTS</h2></div>
       <div className="continents d-flex-row">
-        {regionListArray && regionListArray.map((region) => (
+        {searchedContinents && searchedContinents.map((region) => (
           <NavLink
             to={`/${region.LocalizedName}`}
             className="continents__link d-flex-column"
