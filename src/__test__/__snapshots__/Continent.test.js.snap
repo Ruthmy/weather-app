@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Continent component Should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="home d-flex-row"
+    >
+      <img
+        alt="Asia"
+        class="header"
+        src="Asia.svg"
+      />
+      <div
+        class="home__info"
+      >
+        <h1
+          class="title"
+        >
+          Asia
+        </h1>
+        <p
+          class="description"
+        >
+          1
+           cities
+        </p>
+      </div>
+    </div>
+    <div
+      class="division"
+    >
+      <h2>
+        LIST OF CITIES IN 
+        Asia
+      </h2>
+    </div>
+    <div>
+      <a
+        class="cities__link d-flex-row"
+        href="/Asia/Dhaka"
+      >
+        <div
+          class="cities__content d-flex-row"
+        >
+          <p>
+            Dhaka
+          </p>
+          <p>
+            28.5
+             
+            C
+            °
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
