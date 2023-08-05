@@ -14,14 +14,12 @@ const Navbar = () => (
       <div className="nav__panel d-flex-row">
         <button type="button" className="btn">
           <img
-            className="btn__image"
             src={Microphone}
             alt="Microphone"
           />
         </button>
         <button type="button" className="btn">
           <img
-            className="btn__image"
             src={Settings}
             alt="Settings"
           />

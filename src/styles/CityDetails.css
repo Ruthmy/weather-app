@@ -1,0 +1,36 @@
+.weather {
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.weather__details {
+  width: 100%;
+  margin-bottom: 2rem;
+  font-family: var(--font-one);
+}
+
+.temperature {
+  color: white;
+  font-weight: 300;
+  font-size: 5.5em;
+}
+
+.summary {
+  width: fit-content;
+  color: #d2e9fa;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #9cd0ff;
+}
+
+.summaryText {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.weather__aditional {
+  align-items: flex-start;
+  width: 100%;
+  gap: 1rem;
+}

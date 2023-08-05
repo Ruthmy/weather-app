@@ -1,4 +1,4 @@
-.country__link {
+.cities__link {
   width: 100%;
   height: 8rem;
   background-color: var(--blue-color);
@@ -8,11 +8,11 @@
   background-repeat: no-repeat;
 }
 
-.country__link:nth-child(2n) {
+.cities__link:nth-child(2n) {
   background-color: var(--blue-color-dark);
 }
 
-.country__content {
+.cities__content {
   width: 100%;
   height: 8rem;
   justify-content: space-between;

@@ -35,6 +35,8 @@ body {
   color: #fff;
 }
 
+/* For the display flex */
+
 .d-flex-column {
   display: flex;
   flex-direction: column;
@@ -44,6 +46,8 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+/* For the font style */
 
 h1 { font-size: var(--h1-size); }
 
@@ -97,6 +101,35 @@ p.continents__detail {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  opacity: 0.95;
+}
+
+/* Styles across components */
+
+.home {
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  padding: 1rem;
+  background-color: var(--blue-color-light);
+}
+
+img.header {
+  height: 100%;
+  object-fit: cover;
+}
+
+.home__info {
+  padding-left: 1rem;
+  width: 40%;
+}
+
+.division {
+  height: auto;
+  padding: 0.8rem 1rem;
+  background-color: var(--blue-color-dark);
+  letter-spacing: 0.1rem;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   opacity: 0.95;
 }
