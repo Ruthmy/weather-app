@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component Should render correctly 1`] = `
+<div>
+  <nav
+    class="d-flex-row"
+  >
+    <div>
+      <a
+        aria-current="page"
+        class="active"
+        href="#/"
+      >
+        <img
+          alt="Back"
+          class="nav__back"
+          src="arrow.svg"
+        />
+        home
+      </a>
+    </div>
+    <div
+      class="nav__panel d-flex-row"
+    >
+      <button
+        class="btn"
+        type="button"
+      >
+        <img
+          alt="Microphone"
+          src="microphone.svg"
+        />
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        <img
+          alt="Settings"
+          src="gear.svg"
+        />
+      </button>
+    </div>
+  </nav>
+</div>
+`;
