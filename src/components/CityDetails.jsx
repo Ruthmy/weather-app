@@ -19,7 +19,7 @@ const CityDetails = () => {
         <img
           className="header"
           src={weatherIcons[CityDetails.WeatherIcon]}
-          alt={city}
+          alt={CityDetails.WeatherText}
         />
         <div className="home__info">
           <h1 className="title">{city}</h1>

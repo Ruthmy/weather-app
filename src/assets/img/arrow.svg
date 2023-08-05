@@ -1,0 +1,14 @@
+<svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="256"
+      height="256"
+      viewBox="0 0 256 256"
+    >
+      <path
+        fill="#FFF"
+        strokeMiterlimit="10"
+        strokeWidth="0"
+        d="M65.75 90a3.499 3.499 0 002.475-5.974L29.2 45 68.225 5.975a3.5 3.5 0 10-4.95-4.95l-41.5 41.5a3.499 3.499 0 000 4.949l41.5 41.5A3.487 3.487 0 0065.75 90z"
+        transform="matrix(2.81 0 0 2.81 1.407 1.407)"
+      ></path>
+    </svg>

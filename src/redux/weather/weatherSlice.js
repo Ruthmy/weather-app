@@ -16,7 +16,7 @@ export const fetchWeather = createAsyncThunk(
   },
 );
 
-const initialState = {
+export const initialState = {
   weather: [],
   status: 'idle',
   error: '',
