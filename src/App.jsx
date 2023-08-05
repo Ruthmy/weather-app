@@ -4,7 +4,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Continent from './components/Continent';
-import CountryDetails from './components/CountryDetails';
+import CityDetails from './components/CityDetails';
 
 import './App.css';
 
@@ -16,7 +16,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:continent" element={<Continent />} />
-        <Route path="/:continent/:country" element={<CountryDetails />} />
+        <Route path="/:continent/:city" element={<CityDetails />} />
         <Route path="*" element={<p>Not found</p>} />
       </Routes>
     </HashRouter>
