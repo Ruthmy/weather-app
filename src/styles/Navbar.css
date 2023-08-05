@@ -10,6 +10,12 @@ nav {
   padding: 0 1rem;
 }
 
+img.nav__back {
+  height: 1.5rem;
+  object-fit: contain;
+  padding-right: 0.3rem;
+}
+
 .nav__panel {
   gap: 2rem;
 }
