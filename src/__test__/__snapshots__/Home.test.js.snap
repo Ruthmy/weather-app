@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component Should render correctly 1`] = `
+<div>
+  <div
+    class="home d-flex-row"
+  >
+    <img
+      alt="Weather App Logo"
+      class="header"
+      src="logo.svg"
+    />
+    <div
+      class="home__info"
+    >
+      <h1
+        class="title"
+      >
+        WEATHER APP
+      </h1>
+      <p
+        class="description"
+      >
+         We currently have 1 cities listed.
+      </p>
+    </div>
+  </div>
+  <div
+    class="division"
+  >
+    <h2>
+      CONTINENTS
+    </h2>
+  </div>
+  <div
+    class="continents d-flex-row"
+  >
+    <a
+      class="continents__link d-flex-column"
+      href="#/Africa"
+    >
+      <img
+        alt="Africa"
+        class="continents__image"
+        src="Africa.svg"
+      />
+      <p
+        class="continents__detail"
+      >
+        Africa
+      </p>
+      <p
+        class="continents__cities"
+      >
+        0
+      </p>
+    </a>
+    <a
+      class="continents__link d-flex-column"
+      href="#/America"
+    >
+      <img
+        alt="America"
+        class="continents__image"
+        src="America.svg"
+      />
+      <p
+        class="continents__detail"
+      >
+        America
+      </p>
+      <p
+        class="continents__cities"
+      >
+        0
+      </p>
+    </a>
+    <a
+      class="continents__link d-flex-column"
+      href="#/Asia"
+    >
+      <img
+        alt="Asia"
+        class="continents__image"
+        src="Asia.svg"
+      />
+      <p
+        class="continents__detail"
+      >
+        Asia
+      </p>
+      <p
+        class="continents__cities"
+      >
+        1
+      </p>
+    </a>
+    <a
+      class="continents__link d-flex-column"
+      href="#/Europe"
+    >
+      <img
+        alt="Europe"
+        class="continents__image"
+        src="Europe.svg"
+      />
+      <p
+        class="continents__detail"
+      >
+        Europe
+      </p>
+      <p
+        class="continents__cities"
+      >
+        0
+      </p>
+    </a>
+    <a
+      class="continents__link d-flex-column"
+      href="#/Australia"
+    >
+      <img
+        alt="Oceania"
+        class="continents__image"
+        src="Oceania.svg"
+      />
+      <p
+        class="continents__detail"
+      >
+        Oceania
+      </p>
+      <p
+        class="continents__cities"
+      >
+        0
+      </p>
+    </a>
+  </div>
+</div>
+`;
