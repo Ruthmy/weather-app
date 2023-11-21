@@ -1,0 +1,41 @@
+.continentSearch {
+  margin-top: 1rem;
+  width: 100%;
+  height: 2.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.continents {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.continents__link {
+  height: 20rem;
+  width: 50%;
+  padding: 1rem;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-image: url(../assets/img/circle-right-regular.svg);
+  background-position: top 0.5rem right 0.5rem;
+  background-size: 2.5rem;
+  background-repeat: no-repeat;
+}
+
+.continents__link:nth-child(2),
+.continents__link:nth-child(3) {
+  background-color: var(--blue-color-medium);
+}
+
+.continents__image {
+  height: 80%;
+  object-fit: contain;
+  opacity: 0.4;
+}
+
+.continents__detail,
+.continents__cities {
+  width: 100%;
+  padding-right: 1rem;
+}

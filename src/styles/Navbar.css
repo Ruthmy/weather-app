@@ -1,0 +1,40 @@
+/* Comming soon */
+nav {
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--blue-color);
+  height: 3.5rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+img.nav__back {
+  height: 1.5rem;
+  object-fit: contain;
+  padding-right: 0.3rem;
+}
+
+.nav__panel {
+  gap: 2rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 2rem;
+  width: 2rem;
+}
+
+.btn img {
+  height: 100%;
+  object-fit: contain;
+}
+
+svg {
+  height: 4rem;
+  width: 2rem;
+}

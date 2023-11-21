@@ -1,0 +1,25 @@
+.cities__link {
+  width: 100%;
+  height: 8rem;
+  background-color: var(--blue-color);
+  background-image: url(../assets/img/circle-right-regular.svg);
+  background-position: top 50% right 0.5rem;
+  background-size: 2rem;
+  background-repeat: no-repeat;
+}
+
+.cities__link:nth-child(2n) {
+  background-color: var(--blue-color-dark);
+}
+
+.cities__content {
+  width: 100%;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem 1rem 1rem;
+}
+
+.division h2 {
+  text-transform: uppercase;
+}
